@@ -1,4 +1,4 @@
-<h2 align="left">Olá! Ne chamo Ricardo Guilherme, Sou de Salvador/Bahia e esse é meu GitHub!</h2>
+<h2 align="left">Olá! Me chamo Ricardo Guilherme, Sou de Salvador/Bahia e esse é meu GitHub!</h2>
 
 ###
 
