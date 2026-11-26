@@ -28,18 +28,12 @@
 
 ## Sobre
 
-Trabalho com apps, sistemas e sites — de um produto mobile em Flutter ou React Native/Expo a experiências web com TypeScript, animação e cuidado com a interface. Uso o GitHub no dia a dia de estudo e de projetos reais.
-
 <div>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/about-dark.svg">
     <img src="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/about-light.svg" width="400" alt="Sobre Ricardo Resende">
   </picture>
 </div>
-
-<p>
-  <a href="https://brichard.dev/freelancer">brichard.dev/freelancer</a>
-</p>
 
 ## Tecnologias
 
