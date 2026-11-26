@@ -19,21 +19,19 @@
 <p align="center">
   <a href="https://brichard.dev/freelancer">Portfólio freelancer</a>
   ·
-  <a href="https://www.linkedin.com/in/ricardo-guilherme-oliveira-resende/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/rgor/">LinkedIn</a>
   ·
   <a href="https://github.com/BRichardy">GitHub</a>
 </p>
 
 ---
 
-## Sobre
-
-<div>
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/about-dark.svg">
     <img src="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/about-light.svg" width="400" alt="Sobre Ricardo Resende">
   </picture>
-</div>
+</p>
 
 ## Tecnologias
 
@@ -79,6 +77,6 @@ O cartão automático de repositórios do Cool README lista apenas repositórios
 ## Contato
 
 - Site: [brichard.dev/freelancer](https://brichard.dev/freelancer)
-- LinkedIn: [ricardo-guilherme-oliveira-resende](https://www.linkedin.com/in/ricardo-guilherme-oliveira-resende/)
+- LinkedIn: [rgor](https://www.linkedin.com/in/rgor/)
 - YouTube: [@brichardev6099](https://www.youtube.com/@brichardev6099)
 - E-mail: [rgoresende2@gmail.com](mailto:rgoresende2@gmail.com)
