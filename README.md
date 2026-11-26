@@ -1,56 +1,90 @@
-<h2 align="left">Olá! Me chamo Ricardo Guilherme, Sou de Salvador/Bahia e esse é meu GitHub!</h2>
+<!--
+  Os cartões SVG só passam a existir depois da primeira execução do workflow
+  cool-readme.yml, que publica os arquivos na branch `cards`.
+  Sintaxe das imagens: seção "By hand" do README do github-cool-readme
+  (https://github.com/pedrocatalao/github-cool-readme).
+  Cada cartão tem 450x219 e deve ser exibido com width="400" (fica 400x195;
+  dois cabem numa linha e, em telas estreitas, empilham).
+  O cartão About não aceita links clicáveis; eles ficam nesta seção de contato.
+-->
 
-###
+<!-- github-cool-readme: https://github.com/pedrocatalao/github-cool-readme -->
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BRichardy&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=nightowl&locale=pt-br&hide_border=false&order=1&custom_title=Minhas%20Estatisticas" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=BRichardy&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=nightowl&hide_border=false&order=2&custom_title=Linguagens%20que%20mais%20uso" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=BRichardy&locale=pt-br&mode=weekly&theme=nightowl&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+<h1 align="center">Ricardo Resende</h1>
+
+<p align="center">
+  Desenvolvedor freelancer · Salvador, Bahia · Sistemas de Informação na UFBA
+</p>
+
+<p align="center">
+  <a href="https://brichard.dev/freelancer">Portfólio freelancer</a>
+  ·
+  <a href="https://www.linkedin.com/in/ricardo-guilherme-oliveira-resende/">LinkedIn</a>
+  ·
+  <a href="https://github.com/BRichardy">GitHub</a>
+</p>
+
+---
+
+## Sobre
+
+Trabalho com apps, sistemas e sites — de um produto mobile em Flutter ou React Native/Expo a experiências web com TypeScript, animação e cuidado com a interface. Uso o GitHub no dia a dia de estudo e de projetos reais.
+
+<div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/about-dark.svg">
+    <img src="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/about-light.svg" width="400" alt="Sobre Ricardo Resende">
+  </picture>
 </div>
 
-###
+<p>
+  <a href="https://brichard.dev/freelancer">brichard.dev/freelancer</a>
+</p>
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="30" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="30" alt="dart logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
+## Tecnologias
+
+O cartão de linguagens abaixo reflete a mistura linguística dos repositórios no GitHub (ponderada pelos commits). A stack com que trabalho no dia a dia inclui:
+
+`Flutter` `Dart` `React Native` `Expo` `TypeScript` `React` `Next.js` `JavaScript` `HTML` `CSS` `GSAP` `Motion` `Python` `Firebase` `Supabase`
+
+## Estatísticas e linguagens
+
+<div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/summary-dark.svg">
+    <img src="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/summary-light.svg" width="400" alt="Estatísticas do GitHub">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/languages-dark.svg">
+    <img src="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/languages-light.svg" width="400" alt="Linguagens mais usadas">
+  </picture>
 </div>
 
-###
+## Histórico de contribuições
 
-<div align="left">
-  <a href="https://www.youtube.com/@brichardev6099" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
-  </a>
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  <a href="rgoresende2@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/ricardo-guilherme-oliveira-resende/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
+<div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/weekly-dark.svg">
+    <img src="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/weekly-light.svg" width="400" alt="Ritmo semanal de contribuições">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/streaks-dark.svg">
+    <img src="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/streaks-light.svg" width="400" alt="Sequências de contribuições">
+  </picture>
 </div>
 
-###
+## Projetos em destaque
 
-<br clear="both">
+O cartão automático de repositórios do Cool README lista apenas repositórios **públicos** com mais estrelas (nunca privados nem forks). Por isso os destaques abaixo são curados à mão.
 
-###
+- **[Vulto](https://github.com/BRichardy/vulto-skeleton-native)** — Primitive open source de placeholder de carregamento para React Native e Expo (MIT).
+- **[RGOR](https://github.com/BRichardy/rgor-site)** — Portfólio técnico e feed de notas em Next.js e TypeScript, com Supabase.
+- **[ViverPets](https://github.com/BRichardy/Viver-Pets)** — Sistema web white label para clínicas veterinárias (Next.js, TypeScript e Supabase; MVP).
+- Trabalho com clientes e produtos em [brichard.dev/freelancer](https://brichard.dev/freelancer).
 
-<h3 align="center">Hello World.py</h3>
+## Contato
 
-###
+- Site: [brichard.dev/freelancer](https://brichard.dev/freelancer)
+- LinkedIn: [ricardo-guilherme-oliveira-resende](https://www.linkedin.com/in/ricardo-guilherme-oliveira-resende/)
+- YouTube: [@brichardev6099](https://www.youtube.com/@brichardev6099)
+- E-mail: [rgoresende2@gmail.com](mailto:rgoresende2@gmail.com)
