@@ -118,6 +118,22 @@
         transform: none;
       }
     }
+
+    @media (prefers-color-scheme: light) {
+      .heading {
+        fill: #1f2328;
+      }
+
+      .description {
+        fill: #59636e;
+      }
+
+      .accent,
+      .cursor,
+      .footer {
+        fill: #0969da;
+      }
+    }
   </style>
 
   <!-- Título: digitação individual por caractere -->
