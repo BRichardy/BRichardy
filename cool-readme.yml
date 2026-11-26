@@ -1,0 +1,77 @@
+# Configuração do GitHub Cool README para BRichardy/BRichardy
+# Todas as chaves abaixo vêm da seção "Settings" do README oficial
+# (https://github.com/pedrocatalao/github-cool-readme, v1.8.1).
+# Chaves desconhecidas geram erro; não invente opções.
+
+user: BRichardy            # defaults to the token's owner
+
+# Cartões gerados e ordem sugerida no README.
+# Padrão do projeto: [summary, languages, contributions, weekly]
+# Também existem: streaks, about, repos (desligados por padrão).
+# "repos" (Top repos) ficou de fora de propósito: só lista repositórios
+# públicos com mais estrelas, nunca privados nem forks. Os públicos com
+# estrela hoje são projetos antigos de prática (Snake_Game, etc.).
+# "contributions" (PRs em projetos de outras pessoas) pode ser ligado
+# depois da primeira execução, se o cartão não vier vazio.
+show: [about, summary, languages, weekly, streaks]
+
+count:
+  private: true            # inclui repositórios privados nos totais (nomes nunca aparecem)
+  orgs: true               # inclui repositórios de organizações das quais você participa
+
+# Tema A: Classic no visual nativo do GitHub, acompanha o tema claro/escuro
+# de quem visita. Alternativas documentadas (troque só o bloco look):
+#   B — Classic com destaque ciano:
+#     style: classic
+#     color: cyan
+#     animations: true
+#     background: none
+#     border: true          # classic only
+#   C — Display animado (LEDs flutuantes, âmbar, painel escuro):
+#     style: floating       # ou dotmatrix (com grade) ou oled (pixels quadrados)
+#     color: amber
+#     animations: true
+#     background: 0d0b07    # cor sem #; omita para fundo transparente
+#     # border não se aplica a floating/dotmatrix/oled
+look:
+  style: classic           # classic, oled, dotmatrix ou floating
+  color: github            # github, amber, green, purple, cyan, red ou blue
+  animations: true         # false: cartões estáticos
+  background: none         # none, ou uma cor sem #, como 030506
+  border: false            # só no estilo classic: contorno fino no estilo do GitHub
+
+cards:
+  summary:
+    title: Estatísticas    # pequeno, na linha do cabeçalho; null usa o padrão
+    ring: percent          # ou github: logo do GitHub no anel e a porcentagem no título
+  languages:
+    title: Linguagens mais usadas
+    count: 6               # no máximo 6, incluindo "Other"
+    hide: []               # nomes de linguagens a excluir (ex.: C++, se o Flutter antigo inflar o C++)
+    repos: {}              # peso por repo ("repo" ou "owner/repo"); 0 exclui o repositório
+    other: true            # junta o restante em "Other"
+  contributions:
+    title: Contribuições em destaque
+    count: 6
+    open: true
+    pin: []
+    hide: []
+  weekly:
+    title: Ritmo semanal
+  streaks:
+    title: Sequências
+  about:
+    title: Sobre
+    headline: "Olá, eu sou o *Ricardo*"
+    lines:
+      - "Desenvolvedor freelancer em Salvador, BA."
+      - "Crio apps e sistemas com Flutter, React Native, TypeScript e Expo."
+      - "Estudante de Sistemas de Informação na UFBA."
+    facts:
+      Local: Salvador, Brasil
+      Foco: Apps, web e produto
+      Site: brichard.dev/freelancer
+  repos:
+    title: Repositórios em destaque
+    count: 6
+    hide: []
