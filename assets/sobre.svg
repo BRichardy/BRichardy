@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="860"
+     height="320"
+     viewBox="0 0 860 320"
+     role="img"
+     aria-labelledby="title description">
+
+  <title id="title">Olá, eu sou o Ricardo</title>
+
+  <desc id="description">
+    Desenvolvedor freelancer em Salvador, BA.
+    Crio apps, sistemas e sites com Flutter, React Native/Expo e TypeScript.
+    Gosto de interfaces bem cuidadas e animações que fazem sentido.
+    Apps, Web, Produto — brichard.dev/freelancer.
+  </desc>
+
+  <style>
+    svg {
+      background: transparent;
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    text {
+      text-anchor: middle;
+    }
+
+    .heading {
+      font-size: 40px;
+      font-weight: 700;
+      fill: #e6edf3;
+    }
+
+    .accent {
+      fill: #2f81f7;
+    }
+
+    .character {
+      opacity: 0;
+      animation: typing 0.01s step-end forwards;
+    }
+
+    .cursor {
+      fill: #2f81f7;
+      font-weight: 400;
+      opacity: 0;
+      animation: blink 0.6s step-end 1.6s 4 forwards;
+    }
+
+    .description {
+      font-size: 20px;
+      font-weight: 400;
+      fill: #8b949e;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(8px);
+      animation: fadeUp 0.55s ease-out forwards;
+    }
+
+    .line-1 {
+      animation-delay: 1.75s;
+    }
+
+    .line-2 {
+      animation-delay: 2.35s;
+    }
+
+    .line-3 {
+      animation-delay: 2.95s;
+    }
+
+    .footer {
+      font-size: 16px;
+      font-weight: 500;
+      fill: #2f81f7;
+      animation-delay: 3.6s;
+    }
+
+    @keyframes typing {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .character,
+      .cursor,
+      .reveal {
+        animation: none !important;
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+
+  <!-- Título: digitação individual por caractere -->
+  <text x="430" y="85" class="heading" xml:space="preserve"><tspan class="character" style="animation-delay:0.12s">O</tspan><tspan class="character" style="animation-delay:0.19s">l</tspan><tspan class="character" style="animation-delay:0.26s">á</tspan><tspan class="character" style="animation-delay:0.33s">,</tspan><tspan class="character" style="animation-delay:0.40s"> </tspan><tspan class="character" style="animation-delay:0.47s">e</tspan><tspan class="character" style="animation-delay:0.54s">u</tspan><tspan class="character" style="animation-delay:0.61s"> </tspan><tspan class="character" style="animation-delay:0.68s">s</tspan><tspan class="character" style="animation-delay:0.75s">o</tspan><tspan class="character" style="animation-delay:0.82s">u</tspan><tspan class="character" style="animation-delay:0.89s"> </tspan><tspan class="character" style="animation-delay:0.96s">o</tspan><tspan class="character" style="animation-delay:1.03s"> </tspan><tspan class="character accent" style="animation-delay:1.10s">R</tspan><tspan class="character accent" style="animation-delay:1.17s">i</tspan><tspan class="character accent" style="animation-delay:1.24s">c</tspan><tspan class="character accent" style="animation-delay:1.31s">a</tspan><tspan class="character accent" style="animation-delay:1.38s">r</tspan><tspan class="character accent" style="animation-delay:1.45s">d</tspan><tspan class="character accent" style="animation-delay:1.52s">o</tspan><tspan class="cursor" dx="6">|</tspan></text>
+
+  <!-- Apresentação -->
+  <text x="430" y="145" class="description reveal line-1">
+    Desenvolvedor freelancer em Salvador, BA.
+  </text>
+
+  <text x="430" y="180" class="description reveal line-2">
+    Crio apps, sistemas e sites com Flutter, React Native/Expo e TypeScript.
+  </text>
+
+  <text x="430" y="215" class="description reveal line-3">
+    Gosto de interfaces bem cuidadas e animações que fazem sentido.
+  </text>
+
+  <!-- Especialidades e endereço -->
+  <text x="430" y="267" class="footer reveal" xml:space="preserve">Apps · Web · Produto  —  brichard.dev/freelancer</text>
+
+  <!--
+    Duração total: 4,15 segundos.
+    O cursor pisca quatro vezes e permanece visível.
+    Todas as animações executam uma única sequência.
+    Sem JavaScript, fontes ou recursos externos.
+  -->
+
+</svg>
