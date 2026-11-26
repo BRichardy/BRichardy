@@ -62,10 +62,11 @@ cards:
     title: Sequências
   about:
     title: Sobre
-    headline: "Olá, eu sou o *Ricardo*"
+    # Estilo classic trunca o headline bold em ~20 caracteres.
+    headline: "Oi, eu sou o *Ricardo*"
     lines:
       - "Desenvolvedor freelancer em Salvador, BA."
-      - "Crio apps e sistemas com Flutter, React Native, TypeScript e Expo."
+      - "Crio apps, sites e interfaces em Flutter e TypeScript."
       - "Estudante de Sistemas de Informação na UFBA."
     facts:
       Local: Salvador, Brasil
