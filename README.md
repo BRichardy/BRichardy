@@ -1,11 +1,7 @@
 <!--
-  Os cartões SVG só passam a existir depois da primeira execução do workflow
-  cool-readme.yml, que publica os arquivos na branch `cards`.
-  Sintaxe das imagens: seção "By hand" do README do github-cool-readme
-  (https://github.com/pedrocatalao/github-cool-readme).
-  Cada cartão tem 450x219 e deve ser exibido com width="400" (fica 400x195;
-  dois cabem numa linha e, em telas estreitas, empilham).
-  O cartão About não aceita links clicáveis; eles ficam nesta seção de contato.
+  Sobre: SVG próprio em assets/sobre.svg.
+  Os outros cartões vêm do github-cool-readme (branch `cards`).
+  Cada cartão Cool README tem 450x219 e deve ser exibido com width="400".
 -->
 
 <!-- github-cool-readme: https://github.com/pedrocatalao/github-cool-readme -->
@@ -27,10 +23,10 @@
 ---
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/about-dark.svg">
-    <img src="https://raw.githubusercontent.com/BRichardy/BRichardy/cards/about-light.svg" width="400" alt="Sobre Ricardo Resende">
-  </picture>
+  <img src="assets/sobre.svg" width="860" alt="Sobre Ricardo Resende">
+</p>
+<p align="center">
+  <a href="https://brichard.dev/freelancer">brichard.dev/freelancer</a>
 </p>
 
 ## Tecnologias

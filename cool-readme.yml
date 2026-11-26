@@ -13,7 +13,8 @@ user: BRichardy            # defaults to the token's owner
 # estrela hoje são projetos antigos de prática (Snake_Game, etc.).
 # "contributions" (PRs em projetos de outras pessoas) pode ser ligado
 # depois da primeira execução, se o cartão não vier vazio.
-show: [about, summary, languages, weekly, streaks]
+# "about" saiu de show: o Sobre do README é o SVG em assets/sobre.svg.
+show: [summary, languages, weekly, streaks]
 
 count:
   private: true            # inclui repositórios privados nos totais (nomes nunca aparecem)
